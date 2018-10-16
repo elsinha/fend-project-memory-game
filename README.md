@@ -7,11 +7,7 @@
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+This is a Memory Game. Try to match cards until match them all. To win 3 stars make matches under 20 moves, 2 stars under 30 moves and 1 star over 40 moves! Good Luck!
 
 ## Contributing
 
