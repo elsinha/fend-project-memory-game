@@ -1,7 +1,7 @@
 /*
  * Create a list that holds all of your cards
  */
-var cards = ['fa-diamond', 'fa-paper-plane-o', 'fa-anchor', 'fa-bolt', 'fa-cube','fa-leaf', 'fa-bicycle', 'fa-bomb', 'fa-diamond', 'fa-paper-plane-o', 'fa-anchor', 'fa-bolt', 'fa-cube','fa-leaf', 'fa-bicycle', 'fa-bomb'];
+let cards = ['fa-diamond', 'fa-paper-plane-o', 'fa-anchor', 'fa-bolt', 'fa-cube','fa-leaf', 'fa-bicycle', 'fa-bomb', 'fa-diamond', 'fa-paper-plane-o', 'fa-anchor', 'fa-bolt', 'fa-cube','fa-leaf', 'fa-bicycle', 'fa-bomb'];
 let timer = 0;
 let rating = 3;
 let moves = 0;
@@ -74,9 +74,11 @@ shuffledArrayCards.forEach(cardStringCreated => {
 
 
 })
+
 Array.prototype.forEach.call(cardsLi, function(el) {
     console.log(el.tagName);
     el.addEventListener("click", function(e){
+      if(!el.classList.contains("open", "show")){
       moves++;
       let movesDoc = document.getElementById("moves");
       movesDoc.innerHTML = moves;
@@ -109,6 +111,7 @@ Array.prototype.forEach.call(cardsLi, function(el) {
           }, 1000);
         }
       }
+    }
     });
 });
 }
