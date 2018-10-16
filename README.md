@@ -5,7 +5,7 @@
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
-![Image of Game](/images/game.png)
+![Image of Game](/img/game.png)
 
 
 ## Instructions
