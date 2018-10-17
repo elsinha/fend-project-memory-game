@@ -14,7 +14,7 @@ This is a Memory Game. Try to match cards until match them all.  Good Luck!
 
 ## Contributing
 
-Used JavaScript the native way with help of [MDN web Docs] (https://developer.mozilla.org/en-US/docs/MDN/Doc_status/JavaScript)
+Used JavaScript the native way with help of [MDN web Docs] (https://developer.mozilla.org/en-US/docs/MDN/Doc_status/JavaScript) and [font-awesome library](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css) and [Google fonts](https://fonts.googleapis.com/css?family=Coda).
 
 * I created the deck of cards that can be shuffled every game played.
 * If all cards have matched, I created a display a message with the final score.
